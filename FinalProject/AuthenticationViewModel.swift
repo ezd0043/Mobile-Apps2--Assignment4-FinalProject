@@ -9,6 +9,7 @@ import Foundation
 import FirebaseAuth
 import Combine
 
+
 class AuthenticationViewModel: ObservableObject {
     @Published var isAuthenticated = false
 
